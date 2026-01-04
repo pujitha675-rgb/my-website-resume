@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #222;
+}
+
+/* HERO */
+.hero {
+  background: #f7f7f7;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+}
+
+.summary {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  margin-top: 30px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 10px 18px;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.primary-btn {
+  background: #000;
+  color: #fff;
+}
+
+.secondary-btn {
+  border: 1px solid #000;
+  color: #000;
+}
+
+/* CONTENT */
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.item span {
+  font-size: 14px;
+  color: #555;
+}
+
+.item ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+/* PROJECTS */
+.projects {
+  padding-left: 18px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 13px;
+  color: #666;
+}
