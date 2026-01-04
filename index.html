@@ -4,9 +4,26 @@
   <meta charset="UTF-8" />
   <title>Pujitha Parchagani | Full Stack Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-container">
+    <div class="logo">Pujitha Parchagani</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
 <!-- HERO -->
 <section class="hero">
@@ -17,7 +34,6 @@
       Computer Science Engineering student passionate about building web applications
       and solving real-world problems using modern technologies.
     </p>
-
     <div class="hero-actions">
       <a href="resume.pdf" download class="primary-btn">Download Resume</a>
       <a href="#contact" class="secondary-btn">Contact</a>
@@ -29,7 +45,7 @@
 <main class="container">
 
   <!-- ABOUT -->
-  <section class="section">
+  <section class="section" id="about">
     <h2>About Me</h2>
     <p>
       I am a CSE student at JNTUH College of Engineering Wanaparthy with strong interest
@@ -39,7 +55,7 @@
   </section>
 
   <!-- EDUCATION -->
-  <section class="section">
+  <section class="section" id="education">
     <h2>Education</h2>
 
     <div class="item">
@@ -49,67 +65,73 @@
 
     <div class="item">
       <h3>Intermediate</h3>
-      <span>2021 – 2023 | MJP Gurukula Society, Madhira – 100%</span>
+      <span>2021 – 2023 | MJP Gurukula Society, Madhira – 90%</span>
     </div>
 
     <div class="item">
       <h3>SSC</h3>
-      <span>2019 – 2020 | MJP Gurukula Society, Khammam – 90%</span>
+      <span>2019 – 2020 | MJP Gurukula Society, Khammam – 100%</span>
     </div>
   </section>
 
   <!-- SKILLS -->
-  <section class="section">
+  <section class="section" id="skills">
     <h2>Skills</h2>
     <div class="skills">
       <span>HTML</span>
       <span>CSS</span>
       <span>JavaScript</span>
-      <span>React.js</span>
-      <span>Node.js</span>
-      <span>Express.js</span>
+      
       <span>MongoDB</span>
       <span>Python</span>
-      <span>Java</span>
+    
       <span>Git & GitHub</span>
     </div>
   </section>
 
   <!-- EXPERIENCE -->
-  <section class="section">
+  <section class="section" id="experience">
     <h2>Experience</h2>
 
     <div class="item">
-      <h3>Web Developer Intern – TechNova Solutions</h3>
-      <span>Jan 2024 – Apr 2024</span>
+      <h3>Web Developer Intern – Zidio Development</h3>
+      <span> 20th July 2025 – 20th oct 2025</span>
       <ul>
-        <li>Built MERN stack Employee Management System</li>
-        <li>Implemented JWT authentication</li>
-        <li>Developed E-Commerce platform</li>
-        <li>Created Study Group Finder web app</li>
+        <li>Worked on front-end and back-end web development tasks</li>
+        <li>Learned real-world development practices and teamwork</li>
+        <li>Contributed to web applications and debugging features</li>
       </ul>
     </div>
   </section>
 
   <!-- PROJECTS -->
-  <section class="section">
+  <section class="section" id="projects">
     <h2>Projects</h2>
-    <ul class="projects">
-      <li>Employee Management System (MERN)</li>
-      <li>E-Commerce Platform</li>
-      <li>Study Group Finder</li>
-      <li>House Price Prediction (ML)</li>
-      <li>Personal Resume Website</li>
-    </ul>
+    <div class="projects-grid">
+
+      <div class="project-item">
+        <h3>Study Group Finder (College Mini Project)</h3>
+        <span>Built as a college mini project using [technologies]</span>
+    
+      </div>
+
+      <div class="project-item">
+        <h3>Personal Resume Website</h3>
+        <a href="https://github.com/pujitha675-rgb/my-website-resume" target="_blank">View on GitHub</a>
+      </div>
+
+    </div>
   </section>
 
   <!-- CONTACT -->
   <section class="section" id="contact">
     <h2>Contact</h2>
-    <p><b>Phone:</b> 6302565675</p>
-    <p><b>Email:</b> pujitha675@gmail.com</p>
-    <p><b>LinkedIn:</b> linkedin.com/in/yourprofile</p>
-    <p><b>GitHub:</b> github.com/yourusername</p>
+    <div class="contact-info">
+      <p><i class="fa fa-phone"></i> 6302565675</p>
+      <p><i class="fa fa-envelope"></i> pujitha675@gmail.com</p>
+      <p><i class="fab fa-linkedin"></i> <a href=https://www.linkedin.com/in/parchagani-pujitha-191131364/ target="_blank">linkedin.com/in/yourprofile</a></p>
+      <p><i class="fab fa-github"></i> <a href="https://github.com/pujitha675-rgb" target="_blank">github.com/pujitha675-rgb</a></p>
+    </div>
   </section>
 
 </main>
@@ -118,5 +140,6 @@
   © 2026 Pujitha Parchagani
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
